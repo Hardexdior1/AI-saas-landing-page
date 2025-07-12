@@ -9,7 +9,6 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { usePop } from '../context/PopUpCOntext'
-
 const ScrollDisplay = () => {
   const { setShowPopUp } = usePop()
   const [activeLink, setActiveLink] = useState('system')
@@ -47,7 +46,7 @@ const ScrollDisplay = () => {
         </p>
         <img className="my-6 w-full" alt="performance-dashboard" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZm9ybWFuY2UlMjBkYXNoYm9hcmR8ZW58MHx8MHx8fDA%3D"  />
         <p className="text-gray-300">
-          Whether you're processing real-time analytics...
+          Whether you&apos;re processing real-time analytics...
         </p>
         <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded"  onClick={(()=>{
               setShowPopUp(true)

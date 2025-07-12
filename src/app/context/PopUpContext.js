@@ -5,7 +5,7 @@ import { createContext,useState,useContext } from "react";
 
 
 
-const PopUpCOntext =createContext()
+const PopUpContext =createContext()
 
 export const AuthProvider=({children})=>{
     const [showPopUp,setShowPopUp]=useState(false)
@@ -19,10 +19,10 @@ export const AuthProvider=({children})=>{
    
 
       
-    return <PopUpCOntext.Provider value={{showPopUp,setShowPopUp}}>
+    return <PopUpContext.Provider value={{showPopUp,setShowPopUp}}>
 {children}
-    </PopUpCOntext.Provider>
+    </PopUpContext.Provider>
 }
 
-export const usePop=()=>useContext(PopUpCOntext)
+export const usePop=()=>useContext(PopUpContext)
 
