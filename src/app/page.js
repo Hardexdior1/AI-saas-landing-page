@@ -6,7 +6,8 @@ import Image from 'next/image';
 import ScrollDisplay from './components/ScrollDisplaySection'
 import Faq from './components/FAQ'
 import { ToastContainer,toast } from 'react-toastify';
-import {usePop} from './context/PopUpCOntext'
+import { usePop } from './context/PopUpContext'; 
+
 const HeroSection = () => {
   // HeroSection.tsx or wherever your code is
 

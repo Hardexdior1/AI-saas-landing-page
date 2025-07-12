@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { usePop } from '../context/PopUpCOntext';
+import { usePop } from '../context/PopUpContext';
 const Footer = () => {
   const footerData = [
     {

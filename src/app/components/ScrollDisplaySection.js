@@ -8,7 +8,8 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { usePop } from '../context/PopUpCOntext'
+import { usePop } from '../context/PopUpContext'; 
+
 const ScrollDisplay = () => {
   const { setShowPopUp } = usePop()
   const [activeLink, setActiveLink] = useState('system')

@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { usePop } from '../context/PopUpCOntext';
 import { Menu, X } from 'lucide-react';
+import { usePop } from '../context/PopUpContext'; 
 
 const Navbar = () => {
   const [fixedNavbar, setFixedNavbar] = useState(false);
